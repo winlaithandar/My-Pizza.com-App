@@ -9,10 +9,10 @@
 
     <ImageView
         android:id="@+id/companyLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="255dp"
+        android:layout_height="97dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/margin_top_portrait"
+        android:layout_marginTop="@dimen/img_margin_top_landscape"
         android:layout_weight="1"
         android:contentDescription="@string/welcome"
         app:srcCompat="@drawable/company_logo" />
@@ -25,7 +25,7 @@
         android:layout_marginTop="@dimen/margin_top"
         android:layout_weight="1"
         android:text="@string/email"
-        android:textSize="@dimen/text_size_portrait" />
+        android:textSize="@dimen/text_size_landscape" />
 
     <EditText
         android:id="@+id/emailEditText"
@@ -38,7 +38,7 @@
         android:ems="10"
         android:hint="@string/email_example"
         android:inputType="textEmailAddress"
-        android:textSize="@dimen/text_size_portrait"/>
+        android:textSize="@dimen/text_size_landscape"/>
 
     <TextView
         android:id="@+id/passwordTextView"
@@ -48,7 +48,7 @@
         android:layout_marginTop="@dimen/margin_top"
         android:layout_weight="1"
         android:text="@string/password"
-        android:textSize="@dimen/text_size_portrait" />
+        android:textSize="@dimen/text_size_landscape" />
 
     <EditText
         android:id="@+id/passwordEditText"
@@ -61,7 +61,7 @@
         android:ems="10"
         android:hint="@string/password_hint"
         android:inputType="textPassword"
-        android:textSize="@dimen/text_size_portrait"/>
+        android:textSize="@dimen/text_size_landscape"/>
 
     <Button
         android:id="@+id/signInButton"
@@ -79,7 +79,7 @@
         android:layout_gravity="center"
         android:layout_weight="1"
         android:text="@string/register_text"
-        android:textSize="@dimen/text_size_portrait" />
+        android:textSize="@dimen/text_size_landscape" />
 
     <Button
         android:id="@+id/registerButton"

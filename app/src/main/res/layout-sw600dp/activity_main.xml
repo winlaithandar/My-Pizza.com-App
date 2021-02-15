@@ -9,10 +9,10 @@
 
     <ImageView
         android:id="@+id/companyLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="650dp"
+        android:layout_height="650dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/margin_top_portrait"
+        android:layout_marginTop="@dimen/top_margin_top_tablet"
         android:layout_weight="1"
         android:contentDescription="@string/welcome"
         app:srcCompat="@drawable/company_logo" />
@@ -21,65 +21,66 @@
         android:id="@+id/emailTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_start"
-        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginStart="@dimen/margin_start_tablet"
+        android:layout_marginTop="@dimen/img_margin_top_tablet"
         android:layout_weight="1"
         android:text="@string/email"
-        android:textSize="@dimen/text_size_portrait" />
+        android:textSize="@dimen/text_size_tablet" />
 
     <EditText
         android:id="@+id/emailEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_start"
-        android:layout_marginEnd="@dimen/margin_end"
+        android:layout_marginStart="@dimen/margin_start_tablet"
+        android:layout_marginEnd="@dimen/margin_end_tablet"
         android:layout_weight="1"
-        android:autofillHints=""
-        android:ems="10"
+        android:ems="50"
         android:hint="@string/email_example"
         android:inputType="textEmailAddress"
-        android:textSize="@dimen/text_size_portrait"/>
+        android:textSize="@dimen/text_size_tablet" />
 
     <TextView
         android:id="@+id/passwordTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_start"
-        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginStart="@dimen/margin_start_tablet"
+        android:layout_marginTop="@dimen/img_margin_top_tablet"
         android:layout_weight="1"
         android:text="@string/password"
-        android:textSize="@dimen/text_size_portrait" />
+        android:textSize="@dimen/text_size_tablet" />
 
     <EditText
         android:id="@+id/passwordEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_start"
-        android:layout_marginEnd="@dimen/margin_end"
+        android:layout_marginStart="@dimen/margin_start_tablet"
+        android:layout_marginEnd="@dimen/margin_end_tablet"
         android:layout_weight="1"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/password_hint"
         android:inputType="textPassword"
-        android:textSize="@dimen/text_size_portrait"/>
+        android:textSize="@dimen/text_size_tablet" />
 
     <Button
         android:id="@+id/signInButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginTop="@dimen/margin_top_tablet"
         android:layout_weight="1"
-        android:text="@string/signin" />
+        android:text="@string/signin"
+        android:textSize="@dimen/text_size_tablet" />
 
     <TextView
         android:id="@+id/registerTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_tablet"
         android:layout_weight="1"
         android:text="@string/register_text"
-        android:textSize="@dimen/text_size_portrait" />
+        android:textSize="@dimen/text_size_tablet" />
 
     <Button
         android:id="@+id/registerButton"
@@ -87,6 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:text="@string/register" />
+        android:text="@string/register"
+        android:textSize="@dimen/text_size_tablet" />
 
 </LinearLayout>

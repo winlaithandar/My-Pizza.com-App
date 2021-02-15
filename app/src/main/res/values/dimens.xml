@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_portrait">60dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="margin_start">20dp</dimen>
+    <dimen name="margin_end">20dp</dimen>
+    <dimen name="img_margin_top_landscape">20dp</dimen>
+    <dimen name="top_margin_top_tablet">100dp</dimen>
+    <dimen name="margin_top_tablet">40dp</dimen>
+    <dimen name="margin_start_tablet">40dp</dimen>
+    <dimen name="margin_end_tablet">40dp</dimen>
+    <dimen name="text_size_portrait">18sp</dimen>
+    <dimen name="text_size_landscape">14sp</dimen>
+    <dimen name="text_size_tablet">36sp</dimen>
+</resources>
