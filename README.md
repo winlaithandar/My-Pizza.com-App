@@ -6,8 +6,7 @@ Functions-
   - Views new menus
   - Display pizza menus
   - Read details of pizza
-  - Add to cart
-  - Check out
+  - Purchase pizza
   - Location accessing
   - Track delivery
   - Vibrate when order arrive
