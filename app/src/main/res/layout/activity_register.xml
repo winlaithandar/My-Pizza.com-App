@@ -3,22 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".RegisterActivity">
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/backToolBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/black_overlay"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme" />
 
     <ImageView
         android:id="@+id/topBarImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
         android:contentDescription="@string/top_bar_img"
         app:srcCompat="@drawable/top_bar_img_portrait" />
 
@@ -31,19 +24,26 @@
         android:text="@string/register_info"
         android:textSize="@dimen/text_size_portrait" />
 
-    <EditText
-        android:id="@+id/nameEditText"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/registerNameTextView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_start"
         android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/name"
+        android:textColor="@color/secondary_text_light"
+        android:textSize="@dimen/text_size_portrait" />
+
+    <EditText
+        android:id="@+id/registerNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
         android:layout_marginEnd="@dimen/margin_end"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/name_hint"
-        android:inputType="textPersonName"
-        android:text="@string/name"
-        android:textColor="@android:color/secondary_text_material_light" />
+        android:inputType="textEmailAddress" />
 
     <TextView
         android:id="@+id/registerEmailTextView"
@@ -52,11 +52,11 @@
         android:layout_marginStart="@dimen/margin_start"
         android:layout_marginTop="@dimen/margin_top"
         android:text="@string/email"
-        android:textColor="@android:color/secondary_text_material_light"
+        android:textColor="@color/secondary_text_light"
         android:textSize="@dimen/text_size_portrait" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/emailAddressEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_start"
@@ -96,7 +96,7 @@
         android:textSize="@dimen/text_size_portrait" />
 
     <EditText
-        android:id="@+id/registerComfirmPasswordEditText"
+        android:id="@+id/registerConfirmPasswordEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_start"
@@ -122,5 +122,22 @@
         android:layout_gravity="center"
         android:layout_marginTop="@dimen/margin_top"
         android:text="@string/register" />
+
+    <TextView
+        android:id="@+id/registerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/login_text"
+        android:textSize="@dimen/text_size_portrait" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/signin" />
 
 </LinearLayout>

@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_start_tablet"
-        android:layout_marginTop="@dimen/img_margin_top_tablet"
+        android:layout_marginTop="@dimen/margin_top_tablet"
         android:layout_weight="1"
         android:text="@string/email"
         android:textSize="@dimen/text_size_tablet" />
@@ -37,14 +37,15 @@
         android:ems="50"
         android:hint="@string/email_example"
         android:inputType="textEmailAddress"
-        android:textSize="@dimen/text_size_tablet" />
+        android:textSize="@dimen/text_size_tablet"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/passwordTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_start_tablet"
-        android:layout_marginTop="@dimen/img_margin_top_tablet"
+        android:layout_marginTop="@dimen/margin_top_tablet"
         android:layout_weight="1"
         android:text="@string/password"
         android:textSize="@dimen/text_size_tablet" />

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_img"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/topBarImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:contentDescription="@string/top_bar_img"
+        app:srcCompat="@drawable/top_bar_img_portrait" />
+
+    <TextView
+        android:id="@+id/verifyEmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#C8C2C2"
+        android:text="@string/verify_email"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="@dimen/text_size_portrait"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/homeMenuSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown" />
+
+    <TextView
+        android:id="@+id/homeMenu1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:fontFamily="cursive"
+        android:text="@string/home_menu1"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="@dimen/menu_text_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/homeMenuImage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/home_menu_img1_des"
+        android:onClick="onClickHomeMenuImage"
+        app:srcCompat="@drawable/home_menu_1" />
+
+    <TextView
+        android:id="@+id/homeMenu2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:fontFamily="cursive"
+        android:text="@string/home_menu1"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="@dimen/menu_text_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/homeMenuImage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/home_menu_img2_des"
+        android:onClick="onClickHomeMenuImage"
+        app:srcCompat="@drawable/home_menu_2" />
+
+    <TextView
+        android:id="@+id/homeMenu3TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:fontFamily="cursive"
+        android:text="@string/home_menu3"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="@dimen/menu_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/homeGreetingsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/greetings"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="@dimen/menu_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/image_ref"
+        android:textSize="@dimen/copyright" />
+
+</LinearLayout>

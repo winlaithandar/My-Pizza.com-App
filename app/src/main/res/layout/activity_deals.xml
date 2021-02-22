@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_img"
+    android:orientation="vertical"
+    tools:context=".DealsActivity">
+
+    <ImageView
+        android:id="@+id/topBarImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:contentDescription="@string/top_bar_img"
+        app:srcCompat="@drawable/top_bar_img_portrait" />
+
+
+    <Spinner
+        android:id="@+id/dealsMenuSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@android:drawable/btn_dropdown" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/dealsMenu1TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:fontFamily="cursive"
+                android:text="@string/deals1"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="@dimen/menu_text_size"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/dealsMenuImage1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/deals_menu_img1_des"
+                app:srcCompat="@drawable/deals1" />
+
+            <TextView
+                android:id="@+id/dealsMenu2TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:fontFamily="cursive"
+                android:text="@string/deals2"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="@dimen/menu_text_size"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/dealsMenuImage2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/deals_menu_img2_des"
+                app:srcCompat="@drawable/deals2" />
+
+            <TextView
+                android:id="@+id/dealsMenu3TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:fontFamily="cursive"
+                android:text="@string/deals3"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="@dimen/menu_text_size"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/dealsMenuImage3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/deals_menu_img3_des"
+                app:srcCompat="@drawable/deals3" />
+
+            <TextView
+                android:id="@+id/dealsMenu4TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_start"
+                android:fontFamily="cursive"
+                android:text="@string/deals4"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="@dimen/menu_text_size"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/dealsMenuImage4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/deals_menu_img4_des"
+                app:srcCompat="@drawable/deals4" />
+
+            <TextView
+                android:id="@+id/copyright"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/image_ref"
+                android:textSize="@dimen/copyright" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

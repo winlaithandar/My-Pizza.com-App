@@ -6,7 +6,9 @@
     <string name="password">Password :</string>
     <string name="password_hint">Enter your password here..</string>
     <string name="signin">Sign in</string>
+    <string name="forgot_password">Forgot your password?</string>
     <string name="register_text">Do not have an account?</string>
+    <string name="login_text">Already have an account?</string>
     <string name="register">Register</string>
     <string name="top_bar_img">Top Bar Image</string>
     <string name="register_info">Please fill all the field to register</string>
@@ -14,6 +16,110 @@
     <string name="name_hint">ALex</string>
     <string name="email_info">Please use valid E-mail to register</string>
     <string name="password2">Confirm password :</string>
-    <string name="password_info">Password must be 8 characters long, 1 upper case, 1 lower case and
-    1 digits</string>
+    <string name="password_info">Password must be 8 characters long, include at least 1 upper case,
+        1 digits and 1 special character!</string>
+    <string name="setting_account">Account</string>
+    <string name="logout">Log Out</string>
+    <string-array name="dropdown_menu">
+        <item>Home</item>
+        <item>Deals</item>
+        <item>Menu</item>
+        <item>Settings</item>
+    </string-array>
+    <string name="home_menu1">New Bubble Tea Blossom Pizza</string>
+    <string name="home_menu2">New Mala Blossom Pizza</string>
+    <string name="home_menu3">New Hawaiian Blossom Pizza</string>
+    <string name="home_menu_img1_des">Bubble Tea Blossom Pizza</string>
+    <string name="home_menu_img2_des">Mala and Hawaiian Blossom Pizza</string>
+    <string name="image_ref">Image reference from Pizza Hut</string>
+    <string name="verify_email">Please verify your email</string>
+    <string name="greetings"> Welcome From My Pizza Com</string>
+    <string name="deals1">Blossom Sharing Box (2–3 pax)</string>
+    <string name="deals2">Mala Sharing Box (2–3 pax)</string>
+    <string name="deals3">50% of any 2 Pizzas</string>
+    <string name="deals4">Valentines day Special</string>
+    <string name="deals_menu_img1_des">Blossom Sharing Box</string>
+    <string name="deals_menu_img2_des">Mala Sharing Box</string>
+    <string name="deals_menu_img3_des">50% of any 2 Pizzas</string>
+    <string name="deals_menu_img4_des">Valentines day Special</string>
+
+
+    <string name="pizza_menu1_img_des">Boba Blossom Pizza</string>
+    <string name="pizza_menu2_img_des">Cheesy Pizza</string>
+    <string name="pizza_menu3_img_des">Hawaiian Blossom Pizza</string>
+    <string name="pizza_menu4_img_des">Hawaiian Heart Pizza</string>
+    <string name="pizza_menu5_img_des">Hawaiian Pizza</string>
+    <string name="pizza_menu6_img_des">Mala Blossom Pizza</string>
+    <string name="pizza_menu7_img_des">Pepperoni Pizza</string>
+    <string name="pizza_menu8_img_des">Veggie Pizza</string>
+    <string name="menu">Menu</string>
+    <string name="menu_list">See menu with Photos</string>
+    <string-array name="pizza_menus">
+        <item>Boba Blossom Pizza</item>
+        <item>Cheesy Pizza</item>
+        <item>Hawaiian Blossom Pizza</item>
+        <item>Hawaiian Heart Pizza</item>
+        <item>Hawaiian Pizza</item>
+        <item>Mala Blossom Pizza</item>
+        <item>Pepperoni Pizza</item>
+        <item>Veggie Pizza</item>
+    </string-array>
+
+    <string-array name="pizza_menu_descriptions">
+        <item>The pizza is topped with sweet boba pearls– plus brown sugar bubble tea sauce and “a brushing of cheese.” It’s one way to interpret the popular sugary milk tea loaded with black sugar pearls in a pizza form.</item>
+        <item>Send your tastebuds into a cheesy frenzy with a divine combination of 4 cheeses - mozzarella, parmesan, cheddar and cream cheese.</item>
+        <item>Classic fan favorite Hawaiian, joining the festive season with blossom stuffed crust.</item>
+        <item>All-time favourite to make the season of love a little sweeter for all Hawaiian pizza lovers. Tender chicken ham combined with sweet and succulent pineapple chunks for a taste of the good old days.</item>
+        <item>An all-time favourite. Tender chicken ham combined with sweet and succulent pineapple chunks for a taste of the good old days.</item>
+        <item>Have a FIERY Good Time at Pizza Hut! Pan Crust Pizza topped w generous chunks of mala marinated chicken and 100% mozzarella cheese, drizzled w Pizza Hut’s in-house mala sauce.</item>
+        <item>Combining the aromatic flavour of beef pepperoni and 100% mozzarella cheese. Classic treat that’s always a great choice.</item>
+        <item>Delightful combination of garden fresh mushrooms, onions, olives and capsicums, sweetened with pineapple chunks and diced tomatoes.</item>
+    </string-array>
+
+    <string name="pizza_menu1">Boba Blossom Pizza</string>
+    <string name="pizza_menu2">Cheesy Pizza</string>
+    <string name="pizza_menu3">Hawaiian Blossom Pizza</string>
+    <string name="pizza_menu4">Hawaiian Heart Pizza</string>
+    <string name="pizza_menu5">Hawaiian Pizza</string>
+    <string name="pizza_menu6">Mala Blossom Pizza</string>
+    <string name="pizza_menu7">Pepperoni Pizza</string>
+    <string name="pizza_menu8">Veggie Pizza</string>
+
+    <string name="pizza_menu1_des">The pizza is topped with sweet boba pearls– plus brown sugar bubble tea sauce and “a brushing of cheese.” It’s one way to interpret the popular sugary milk tea loaded with black sugar pearls in a pizza form.</string>
+    <string name="pizza_menu2_des">Send your tastebuds into a cheesy frenzy with a divine combination of 4 cheeses - mozzarella, parmesan, cheddar and cream cheese.</string>
+    <string name="pizza_menu3_des">Classic fan favorite Hawaiian, joining the festive season with blossom stuffed crust.</string>
+    <string name="pizza_menu4_des">All-time favourite to make the season of love a little sweeter for all Hawaiian pizza lovers. Tender chicken ham combined with sweet and succulent pineapple chunks for a taste of the good old days.</string>
+    <string name="pizza_menu5_des">An all-time favourite. Tender chicken ham combined with sweet and succulent pineapple chunks for a taste of the good old days.</string>
+    <string name="pizza_menu6_des">Have a FIERY Good Time at Pizza Hut! Pan Crust Pizza topped w generous chunks of mala marinated chicken and 100% mozzarella cheese, drizzled w Pizza Hut’s in-house mala sauce.</string>
+    <string name="pizza_menu7_des">Combining the aromatic flavour of beef pepperoni and 100% mozzarella cheese. Classic treat that’s always a great choice.</string>
+    <string name="pizza_menu8_des">Delightful combination of garden fresh mushrooms, onions, olives and capsicums, sweetened with pineapple chunks and diced tomatoes.</string>
+
+    <string name="pizza_size_and_crust">Select your size and crust</string>
+    <string-array name="pizza_size">
+        <item>Large Pan</item>
+        <item>Large Cheesy stuffed crust</item>
+        <item>Large Hand Stretched Crust</item>
+        <item>Regular Pan</item>
+        <item>Regular Cheesy stuffed crust</item>
+        <item>Regular Hand Stretched Crust</item>
+        <item>Personal Pan</item>
+        <item>Personal Cheesy stuffed crust</item>
+        <item>Personal Hand Stretched Crust</item>
+    </string-array>
+
+    <string name="price">Price : $ 0</string>
+    <string name="purchase">purchase</string>
+
+    <string name="deliver_location">Deliver Location</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="postal_hint">319579</string>
+    <string name="detail_address">Address detail</string>
+    <string name="detail_address_hint">11 Lor 3 Toa Payoh</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="payment_method">Select Payment Method</string>
+    <string name="card_payment">Credit/debit Card</string>
+    <string name="cash_payment">Cash On Delivery</string>
+    <string name="place_order">Place Order</string>
+
 </resources>

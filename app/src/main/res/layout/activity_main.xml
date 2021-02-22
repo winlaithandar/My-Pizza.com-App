@@ -63,6 +63,16 @@
         android:inputType="textPassword"
         android:textSize="@dimen/text_size_portrait"/>
 
+    <TextView
+        android:id="@+id/forgotPasswordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_weight="1"
+        android:onClick="forgotPassword"
+        android:text="@string/forgot_password"
+        android:textSize="@dimen/text_size_portrait" />
+
     <Button
         android:id="@+id/signInButton"
         android:layout_width="wrap_content"

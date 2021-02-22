@@ -4,17 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/margin_top"
     android:background="#00D30404"
     android:orientation="vertical"
     tools:context=".RegisterActivity">
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/backToolBar"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@color/black_overlay"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme" />
 
     <ImageView
         android:id="@+id/topBarImage"
@@ -31,8 +24,18 @@
         android:text="@string/register_info"
         android:textSize="@dimen/text_size_landscape" />
 
+    <TextView
+        android:id="@+id/registerNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/name"
+        android:textColor="@color/secondary_text_light"
+        android:textSize="@dimen/text_size_landscape" />
+
     <EditText
-        android:id="@+id/nameEditText"
+        android:id="@+id/registerNameEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_start"
@@ -40,10 +43,8 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/name_hint"
-        android:inputType="textPersonName"
-        android:text="@string/name"
-        android:textColor="@android:color/secondary_text_material_light"
-        android:textSize="@dimen/text_size_landscape" />
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/text_size_landscape"/>
 
     <TextView
         android:id="@+id/registerEmailTextView"
@@ -51,11 +52,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_start"
         android:text="@string/email"
-        android:textColor="@android:color/secondary_text_material_light"
+        android:textColor="@color/secondary_text_light"
         android:textSize="@dimen/text_size_landscape" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/emailAddressEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_start"
@@ -63,7 +64,8 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/email_info"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/text_size_landscape" />
 
     <TextView
         android:id="@+id/registerPasswordTextView"
@@ -94,7 +96,7 @@
         android:textSize="@dimen/text_size_landscape" />
 
     <EditText
-        android:id="@+id/registerComfirmPasswordEditText"
+        android:id="@+id/registerConfirmPasswordEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/margin_start"
