@@ -8,7 +8,8 @@ Functions-
   - Read details of pizza
   - Purchase pizza
   - Location accessing
-  - Track delivery
+  - Verify users
+  - Reset Password
   - Vibrate when order arrive
   - Views weekly deals 
   - User Settings
