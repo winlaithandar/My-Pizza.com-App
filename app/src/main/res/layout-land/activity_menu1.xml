@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top"
         android:contentDescription="@string/top_bar_img"
-        app:srcCompat="@drawable/top_bar_img_portrait" />
+        app:srcCompat="@drawable/top_bar_img" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -23,14 +23,15 @@
         <ImageView
             android:id="@+id/pizzaMenu1ImageView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="160dp"
             android:layout_marginTop="@dimen/menu_card_img_margin_top"
             app:srcCompat="@drawable/pizza_menu1" />
 
         <TextView
             android:id="@+id/dealsMenu1TextView"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_marginStart="@dimen/margin_start"
             android:fontFamily="cursive"
             android:text="@string/pizza_menu1"
@@ -43,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_start"
-            android:layout_marginTop="@dimen/menu_card_des_margin_top"
+            android:layout_marginTop="@dimen/menu_card_des_margin_top_landscape"
             android:layout_marginEnd="@dimen/margin_end"
             android:text="@string/pizza_menu1_des" />
 
@@ -51,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_start"
-            android:layout_marginTop="@dimen/menu_card_size_crust_text_margin_top"
+            android:layout_marginTop="@dimen/menu_card_size_crust_text_margin_top_landscape"
             android:text="@string/pizza_size_and_crust"
             android:textColor="@color/black"
             android:textSize="@dimen/text_size_portrait" />
@@ -61,20 +62,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_start"
-            android:layout_marginTop="@dimen/menu_card_size_crust_spinner_margin_top" />
+            android:layout_marginTop="@dimen/menu_card_size_crust_spinner_margin_top_landscape" />
 
         <TextView
             android:id="@+id/priceTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_start"
-            android:layout_marginTop="@dimen/menu_price_margin_top"/>
+            android:layout_marginTop="@dimen/menu_price_margin_top_landscape" />
 
         <Button
             android:id="@+id/purchaseButton"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/menu_card_addto_cart_button_margin_top"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/menu_card_addto_cart_button_margin_top_landscape"
             android:onClick="purchaseOnButtonClick"
             android:text="@string/purchase" />
 

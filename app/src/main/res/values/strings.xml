@@ -26,6 +26,12 @@
         <item>Menu</item>
         <item>Settings</item>
     </string-array>
+    <string-array name="dropdown_menu2">
+        <item>Home</item>
+        <item>Deals</item>
+        <item>Menu</item>
+        <item>Settings</item>
+    </string-array>
     <string name="home_menu1">New Bubble Tea Blossom Pizza</string>
     <string name="home_menu2">New Mala Blossom Pizza</string>
     <string name="home_menu3">New Hawaiian Blossom Pizza</string>
@@ -107,7 +113,7 @@
         <item>Personal Hand Stretched Crust</item>
     </string-array>
 
-    <string name="price">Price : $ 0</string>
+    <string name="price">Price : $ 20</string>
     <string name="purchase">purchase</string>
 
     <string name="deliver_location">Deliver Location</string>

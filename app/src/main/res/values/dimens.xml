@@ -14,10 +14,17 @@
     <dimen name="text_size_landscape">14sp</dimen>
     <dimen name="text_size_tablet">36sp</dimen>
     <dimen name="menu_text_size">30sp</dimen>
+    <dimen name="menu_text_size_tablet">60sp</dimen>
     <dimen name="copyright">10sp</dimen>
     <dimen name="menu_card_des_margin_top">220dp</dimen>
+    <dimen name="menu_card_img_margin_top">40dp</dimen>
     <dimen name="menu_card_size_crust_text_margin_top">320dp</dimen>
     <dimen name="menu_card_size_crust_spinner_margin_top">340dp</dimen>
+    <dimen name="menu_card_des_margin_top_landscape">200dp</dimen>
+    <dimen name="menu_card_size_crust_text_margin_top_landscape">240dp</dimen>
+    <dimen name="menu_card_size_crust_spinner_margin_top_landscape">260dp</dimen>
+    <dimen name="menu_price_margin_top_landscape">280dp</dimen>
+    <dimen name="menu_card_addto_cart_button_margin_top_landscape">300dp</dimen>
     <dimen name="menu_price_margin_top">360dp</dimen>
     <dimen name="menu_card_addto_cart_button_margin_top">400dp</dimen>
     <dimen name="text_margin">16dp</dimen>

@@ -33,7 +33,7 @@ public class DeliveryActivity extends AppCompatActivity {
     final String ErrorMessage = "Google Play Services Unavaiable.";
     final String SuccessMessage = "Connected Successfully";
     final int LocationPermission = 1;
-    final Geocoder geocoder = new Geocoder(this, Locale.getDefault());
+    Geocoder geocoder;
     List<Address> addresses;
     EditText postalCodeEditText;
     EditText detailAddressEditText;
@@ -112,7 +112,8 @@ public class DeliveryActivity extends AppCompatActivity {
         if (location != null) {
             double latitude = location.getLatitude();
             double longitude = location.getLongitude();
-            LocationString = "Latitube" + latitude +".";
+            //LocationString = "Latitube" + latitude +".";
+            geocoder = new Geocoder(this, Locale.getDefault());
             try {
                 addresses = geocoder.getFromLocation(latitude, longitude, 1);
             } catch (IOException e) {
@@ -122,8 +123,8 @@ public class DeliveryActivity extends AppCompatActivity {
             LocationString = addresses.get(0).getAddressLine(0);
             PostalCode = addresses.get(0).getPostalCode();
         }
-        postalCodeEditText.setText(LocationString);
-        detailAddressEditText.setText(PostalCode);
+        postalCodeEditText.setText(PostalCode);
+        detailAddressEditText.setText(LocationString);
     }
 
     public void addressSelectedButtonOnClick(View view) {

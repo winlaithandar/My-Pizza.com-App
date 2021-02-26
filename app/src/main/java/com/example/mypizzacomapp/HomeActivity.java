@@ -72,22 +72,27 @@ public class HomeActivity extends AppCompatActivity {
         menuSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int i, long id) {
-                if (i == 1) {
-                    Toast.makeText(HomeActivity.this, "Home", Toast.LENGTH_SHORT).show();
-                } else if (i == 2) {
+                if (i == 0) {
+                  //  menuSpinner.setSelection(i);
+                 //   Toast.makeText(HomeActivity.this, "Home", Toast.LENGTH_SHORT).show();
+                } else if (i == 1) {
+                    menuSpinner.setSelection(i);
                     Toast.makeText(HomeActivity.this, "Deals", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(getApplicationContext(), DealsActivity.class));
-                }else if (i == 3) {
+                }else if (i == 2) {
+                    menuSpinner.setSelection(i);
                     Toast.makeText(HomeActivity.this, "Menu", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(getApplicationContext(), MenuActivity.class));
-                }else if (i == 4) {
+                    startActivity(new Intent(getApplicationContext(), PizzaMenuActivity.class));
+                }else if (i == 3) {
+                    menuSpinner.setSelection(i);
                     Toast.makeText(HomeActivity.this, "Settings", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
                 }
             }
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
-
+                menuSpinner.setSelection(0);
+                Toast.makeText(HomeActivity.this, "Home", Toast.LENGTH_SHORT).show();
             }
         });
     }

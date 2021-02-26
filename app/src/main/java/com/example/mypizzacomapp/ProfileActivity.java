@@ -58,16 +58,20 @@ public class ProfileActivity extends AppCompatActivity {
         menuSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int i, long id) {
-                if (i == 1) {
-                    Toast.makeText(ProfileActivity.this, "Home", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(getApplicationContext(), HomeActivity.class));
-                } else if (i == 2) {
+                if (i == 0) {
+                   // menuSpinner.setSelection(i);
+                   // Toast.makeText(ProfileActivity.this, "Home", Toast.LENGTH_SHORT).show();
+                    //startActivity(new Intent(getApplicationContext(), HomeActivity.class));
+                } else if (i == 1) {
+                    menuSpinner.setSelection(i);
                     Toast.makeText(ProfileActivity.this, "Deals", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(getApplicationContext(), DealsActivity.class));
-                }else if (i == 3) {
+                }else if (i == 2) {
+                    menuSpinner.setSelection(i);
                     Toast.makeText(ProfileActivity.this, "Menu", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(getApplicationContext(), MenuActivity.class));
-                }else if (i == 4) {
+                    startActivity(new Intent(getApplicationContext(), PizzaMenuActivity.class));
+                }else if (i == 3) {
+                    menuSpinner.setSelection(i);
                     Toast.makeText(ProfileActivity.this, "Settings", Toast.LENGTH_SHORT).show();
                 }
             }

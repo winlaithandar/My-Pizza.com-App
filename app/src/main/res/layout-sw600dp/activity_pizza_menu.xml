@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_top"
         android:contentDescription="@string/top_bar_img"
-        app:srcCompat="@drawable/top_bar_img_portrait" />
+        app:srcCompat="@drawable/top_bar_img" />
 
     <Spinner
         android:id="@+id/menuSpinner"
@@ -31,7 +31,7 @@
         android:fontFamily="cursive"
         android:text="@string/menu"
         android:textColor="@android:color/holo_orange_light"
-        android:textSize="@dimen/menu_text_size" />
+        android:textSize="@dimen/menu_text_size_tablet" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -40,12 +40,15 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/complexListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="924dp"
+                android:textSize="@dimen/text_size_tablet" />
+        </LinearLayout>
     </ScrollView>
 
-    <ListView
-        android:id="@+id/complexListView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/pizzaMenuTextView" />
 </RelativeLayout>

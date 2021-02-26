@@ -35,17 +35,25 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="238dp">
 
         <LinearLayout
+            android:id="@+id/lr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical">
+
+        </LinearLayout>
     </ScrollView>
 
     <ListView
         android:id="@+id/complexListView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/pizzaMenuTextView" />
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topBarImage"
+        android:layout_alignBottom="@lr"
+        android:layout_marginTop="-68dp" />
+
 </RelativeLayout>

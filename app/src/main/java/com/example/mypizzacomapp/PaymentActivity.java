@@ -2,9 +2,11 @@ package com.example.mypizzacomapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -22,12 +24,11 @@ public class PaymentActivity extends AppCompatActivity {
         placeOrderButton = findViewById(R.id.placeOrderButton);
         vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
 
-        final long[] value = {2000, 1000};
 
         placeOrderButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                vibrator.vibrate(VibrationEffect.createOneShot(3000, VibrationEffect.DEFAULT_AMPLITUDE));
+                vibrator.vibrate(VibrationEffect.createOneShot(300, VibrationEffect.DEFAULT_AMPLITUDE));
             }
         });
 
